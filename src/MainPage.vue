@@ -72,9 +72,9 @@ export default {
         {numbers: '95',text: 'Happy CUstomers'},
       ],
       CardsDesign:[
-        {img:'public/design1.svg',title: 'Let’s Get Solution For Building Construction Work',date:'26 December,2022',links:'/design-page',tag:'Kitchan Design'},
-        {img:'public/design2.svg',title: 'Low Cost Latest Invented Interior Designing Ideas.',date:'26 December,2022',links:'/design-page',tag:'Living Design'},
-        {img:'public/design3.svg',title: 'Best For Any Office & Business Interior Solution',date:'26 December,2022',links:'/design-page',tag:'Interior Design'},
+        {id:1,img:'public/design1.svg',title: 'Let’s Get Solution For Building Construction Work',date:'26 December,2022',links:'/blog',tag:'Kitchan Design'},
+        {id:2,img:'public/design2.svg',title: 'Low Cost Latest Invented Interior Designing Ideas.',date:'26 December,2022',links:'/blog',tag:'Living Design'},
+        {id:3,img:'public/design3.svg',title: 'Best For Any Office & Business Interior Solution',date:'26 December,2022',links:'/blog',tag:'Interior Design'},
       ]
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="flex">
-  <div  v-for="CardsItem in CardsDesign" :key="CardsItem.id">
-    <div class="design-shadow">
+  <div v-for="CardsItem in CardsDesign" :key="CardsItem.id">
+    <div :class="{'design-shadow-active': CardsItem.id === 2}" class="design-shadow">
       <div class="desing-items">
         <div class="design-img">
           <img :src="CardsItem.img" :alt="CardsItem.tag">
@@ -16,7 +16,15 @@
           </div>
           <div>
             <router-link :to="CardsItem.links">
-              <img src="/public/step.svg" alt="step">
+              <div v-if="CardsItem.id === 2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 52 53" fill="none">
+                  <circle cx="26" cy="26.2671" r="26" fill="white"/>
+                  <path d="M23.7715 32.9529L29.7144 26.2672L23.7715 19.5815" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div v-else>
+                <img src="/public/step.svg" alt="step">
+              </div>
             </router-link>
           </div>
         </div>
@@ -39,6 +47,7 @@ export default {
   display: flex;
   gap: 30px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .design-shadow{
   border-radius: 62px;
@@ -50,6 +59,10 @@ export default {
 }
 .design-img{
   position: relative;
+}
+.design-img img{
+  border-top-left-radius: 38px;
+  border-top-right-radius: 38px;
 }
 .design-tag{
   position: absolute;
@@ -93,5 +106,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.design-shadow-active{
+  background: #F4F0EC;
+}
+.design-shadow-active img{
+  color: white;
 }
 </style>

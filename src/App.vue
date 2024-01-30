@@ -1,25 +1,21 @@
 <template>
   <div>
-  <div class="container">
-    <Nav style="padding-bottom: 40px" :nav="navItems"/>
-  </div>
-    <MainPage/>
     <div class="container">
-    <Footer :footer="footer"/>
+      <Nav :nav="navItems" />
     </div>
-    <router-view/>
+    <router-view></router-view>
+    <div class="container">
+      <Footer :footer="footer" />
+    </div>
   </div>
 </template>
 
 <script>
-
-
 import Nav from "./components/Nav.vue";
 import Footer from "./components/Footer.vue";
-import MainPage from "./MainPage.vue";
 
 export default {
-  components: {MainPage, Footer, Nav },
+  components: { Footer, Nav },
   data() {
     return {
       navItems: [
@@ -27,14 +23,14 @@ export default {
         { name: 'Project', links: '/project' },
         { name: 'Blog', links: '/blog' }
       ],
-      footer:[
+      footer: [
         { name: 'Home', links: '/' },
         { name: 'Project', links: '/project' },
         { name: 'Blog', links: '/blog' }
       ]
     };
   }
-}
+};
 </script>
 
 <style scoped>
