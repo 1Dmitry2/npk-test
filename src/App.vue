@@ -1,8 +1,12 @@
 <template>
+  <div>
   <div class="container">
-    <Nav :nav="navItems"/>
+    <Nav style="padding-bottom: 40px" :nav="navItems"/>
+  </div>
     <MainPage/>
+    <div class="container">
     <Footer :footer="footer"/>
+    </div>
     <router-view/>
   </div>
 </template>
