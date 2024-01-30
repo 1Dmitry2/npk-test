@@ -1,4 +1,4 @@
-<template xmlns="http://www.w3.org/1999/html">
+<template>
   <div>
     <main class="container">
     <div class="padding-section">
@@ -60,10 +60,10 @@ export default {
   data(){
     return {
       Projects: [
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-1.svg', links: '/pojects-item-1'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-2.svg', links: '/pojects-item-1'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-3.svg', links: '/pojects-item-1'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-4.svg', links: '/pojects-item-1'},
+        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-1.svg', links: '/page-not'},
+        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-2.svg', links: '/page-not'},
+        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-3.svg', links: '/page-not'},
+        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-4.svg', links: '/page-not'},
       ],
       ProjStats:[
         {numbers: '12',text: 'Years Of Experiance'},
@@ -135,6 +135,6 @@ export default {
 }
 .bg-stats{
   background:  #F4F0EC;;
-  height: 55vh;
+  height: 100vh;
 }
 </style>
