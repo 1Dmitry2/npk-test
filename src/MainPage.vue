@@ -81,7 +81,6 @@ export default {
 }
 </script>
 <style scoped>
-@import "style.css";
 .padding-section{
   padding-bottom: 40px;
 }
@@ -136,6 +135,6 @@ export default {
 }
 .bg-stats{
   background:  #F4F0EC;;
-  height: 100vh;
+  height: 55vh;
 }
 </style>

@@ -30,7 +30,7 @@
                 <div>
                   <span class="text-date">26 December,2022 </span>
                 </div>
-                <router-link to="/posts">
+                <router-link to="/blog-ditails">
                   <img src="/public/step.svg" alt="steps">
                 </router-link>
               </div>
@@ -84,7 +84,6 @@ export default {
 </script>
 
 <style scoped>
-@import "style.css";
 .bg{
   background: url("public/bg-blog.jpg") lightgray 50% / cover no-repeat;
   padding-top: 200px;
