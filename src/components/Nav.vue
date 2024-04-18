@@ -1,7 +1,7 @@
 <template>
   <div class="nav-wrapper">
     <router-link to="/" class="logo">
-      <img src="/public/Logo.svg" alt="logo">
+      <img style="width: 30px;" src="/public/computer.png" alt="logo">
       <span>Interno</span>
     </router-link>
     <div class="nav">

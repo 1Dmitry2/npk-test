@@ -1,7 +1,7 @@
 <template>
     <div class="projects-item-wrapper">
       <div  v-for="pojectsItem in projects" :key="pojectsItem.id">
-        <img :src="pojectsItem.img" alt="poject">
+        <img style="width: 400px" :src="pojectsItem.img" alt="poject">
         <div class="projects-item">
         <div>
         <p class="projects-text">{{pojectsItem.title}}</p>

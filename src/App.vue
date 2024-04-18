@@ -19,14 +19,16 @@ export default {
   data() {
     return {
       navItems: [
-        { name: 'Home', links: '/' },
-        { name: 'Project', links: '/project' },
-        { name: 'Blog', links: '/blog' }
+        { name: 'Главная', links: '/' },
+        { name: 'Наши проекты', links: '/project' },
+        { name: 'Блог и новости', links: '/blog' },
+        { name: 'Выход', links: '/auth' }
       ],
       footer: [
-        { name: 'Home', links: '/' },
-        { name: 'Project', links: '/project' },
-        { name: 'Blog', links: '/blog' }
+        { name: 'Главная', links: '/' },
+        { name: 'Наши проекты', links: '/project' },
+        { name: 'Блог и новости', links: '/blog' },
+        { name: 'Выход', links: '/auth' }
       ]
     };
   }

@@ -2,21 +2,21 @@
   <div>
     <main class="bg">
       <div class="project-item">
-        <h4 class="project-text">Our Project</h4>
+        <h4 class="project-text">Наши проекты</h4>
         <span class="project-crumbs">Home / Project</span>
       </div>
     </main>
     <section class="container">
       <div class="section-button section-button-tabs">
-        <button class="tabs-btn">Bathroom</button>
-        <button class="tabs-btn active">Bed Room</button>
-        <button class="tabs-btn">Kitchan</button>
-        <button class="tabs-btn">Living Area</button>
+        <button class="tabs-btn">Дешевые пк</button>
+        <button class="tabs-btn active">Средние пк</button>
+        <button class="tabs-btn">Дорогие пк</button>
+        <button class="tabs-btn">Пк для людей без денег</button>
       </div>
       <div class="gallery">
         <div class="gallery-item" v-for="(item, index) in galleryItems" :key="index" :style="{ 'margin-top': item.marginTop }">
           <div style="position: relative">
-            <img :src="item.imageSrc" :alt="item.title">
+            <img width="500px" :src="item.imageSrc" :alt="item.title">
             <div v-if="item.showStar === true" class="star-icon">
               <img src="/public/Star.svg" alt="star">
             </div>
@@ -55,14 +55,14 @@ export default {
   data() {
     return {
       galleryItems: [
-        { title: 'Minimal Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-3.svg', link: '/project-ditails' },
-        { title: 'Minimal Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-2.svg', link: '/project-ditails',  showStar: true },
-        { title: 'Classic Minimal Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-1.svg', link: '/project-ditails' },
-        { title: 'Modern Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo.svg', link: '/project-ditails', marginTop: '-330px', showStar: true },
-        { title: 'Minimal Bedroom table', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-3.png', link: '/project-ditails' },
-        { title: 'System Table', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-2.png', link: '/project-ditails' },
-        { title: 'Modern Medroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo-1.png', link: '/project-ditails' },
-        { title: 'Modern Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/Photo.png', link: '/project-ditails', marginTop: '-330px', showStar: true },
+        { title: 'Пк на заказ', category: 'Пк/ c сборки пк', imageSrc: '/public/pc-1.jpeg', link: '/project-ditails' },
+        { title: 'Пк на заказ', category: 'Пк/ c сборки пк', imageSrc: '/public/pc-2.jpeg', link: '/project-ditails',  showStar: true },
+        { title: 'Classic Minimal Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/pc-3.jpeg', link: '/project-ditails' },
+        { title: 'Modern Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/pc-4.jpeg', link: '/project-ditails', marginTop: '-330px', showStar: true },
+        { title: 'Minimal Bedroom table', category: 'Decor / Artchitecture', imageSrc: '/public/pc-5.jpeg', link: '/project-ditails' },
+        { title: 'System Table', category: 'Decor / Artchitecture', imageSrc: '/public/pc-6.jpeg', link: '/project-ditails' },
+        { title: 'Modern Medroom', category: 'Decor / Artchitecture', imageSrc: '/public/pc-7.jpeg', link: '/project-ditails' },
+        { title: 'Modern Bedroom', category: 'Decor / Artchitecture', imageSrc: '/public/pc-8.jpeg', link: '/project-ditails', marginTop: '-330px', showStar: true },
       ]
     };
   }
@@ -71,7 +71,7 @@ export default {
 
 <style scoped>
 .bg{
-  background: url("public/project.png") lightgray 50% / cover no-repeat;
+  background: url("public/building pc.jpeg") lightgray 50% / cover no-repeat;
   padding-top: 200px;
 }
 .project-item{

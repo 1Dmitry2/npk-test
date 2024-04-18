@@ -3,7 +3,7 @@
     <div class="footer-wrapper">
       <div>
         <router-link to="/" class="logo">
-          <img src="/public/Logo.svg" alt="logo">
+          <img style="width: 30px" src="/public/computer.png" alt="logo">
           <span>Interno</span>
         </router-link>
         <p class="text">It is a long established fact that a reader will be distracted lookings.</p>

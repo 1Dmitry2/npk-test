@@ -2,24 +2,22 @@
   <div>
     <main class="bg">
       <div class="blog-item">
-      <h4 class="blog-text">Articles & News</h4>
+      <h4 class="blog-text">Техника, сборки пк, новости</h4>
       <span class="bg-crumbs">Home / Blog</span>
       </div>
     </main>
     <section class="container">
       <div style="padding-bottom: 50px">
-        <h4 class="posts-text">Latest Post</h4>
+        <h4 class="posts-text">Последний пост</h4>
       </div>
       <div>
         <div class="posts-shadow">
           <div class="posts-shadow-flex">
             <div>
-              <img style="border-radius: 38px; width: 765px" src="/public/posts.png" alt="posts-img">
+              <img style="border-radius: 38px; width: 765px" src="/public/i3.jpeg" alt="posts-img">
             </div>
             <div>
-              <h4 class="posts-title">Low Cost Latest Invented Interior
-                <br>
-                Designing Ideas</h4>
+              <h4 class="posts-title">Что такое AVX? И зачем они нужны?</h4>
               <p class="posts-text-p">
                 Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.
                 <br>
@@ -41,7 +39,7 @@
     </section>
     <section class="container">
       <div style="padding-bottom: 50px">
-        <h4 class="blog-text">Articles & News</h4>
+        <h4 class="blog-text">Новости и Техника</h4>
         <cards-design :CardsDesign="CardsDesign"/>
         <div class="section-button">
           <div class="steps-one steps-text">
@@ -70,12 +68,12 @@ export default {
   data(){
     return{
       CardsDesign:[
-        {id:1,img:'public/design1.svg',title: 'Let’s Get Solution For Building Construction Work',date:'26 December,2022',links:'/blog',tag:'Kitchan Design'},
-        {id:2,img:'public/design2.svg',title: 'Low Cost Latest Invented Interior Designing Ideas.',date:'26 December,2022',links:'/blog',tag:'Living Design'},
-        {id:3,img:'public/design3.svg',title: 'Best For Any Office & Business Interior Solution',date:'26 December,2022',links:'/blog',tag:'Interior Design'},
-        {id:4,img:'public/design4.png',title: 'Let’s Get Solution For Building Construction Work',date:'26 December,2022',links:'/blog',tag:'Kitchan Design'},
-        {id:5,img:'public/design6.png',title: 'Low Cost Latest Invented Interior Designing Ideas.',date:'26 December,2022',links:'/blog',tag:'Living Design'},
-        {id:6,img:'public/design6.png',title: 'Best For Any Office & Business Interior Solution',date:'26 December,2022',links:'/blog',tag:'Interior Design'},
+        {id:1,img:'public/tecno.jpeg',title: 'Смартфоны техно со скидкой',date:'26 December,2022',links:'/blog',tag:'Большая скидка'},
+        {id:2,img:'public/iphone.jpeg',title: 'Айфон в кредит(берите).',date:'26 December,2022',links:'/blog',tag:'Кредит есть'},
+        {id:3,img:'public/gt-1030.jpeg',title: 'gt 1030 стоит 500тыс? Чтооо??',date:'26 December,2022',links:'/blog',tag:'Железо дорожает'},
+        {id:4,img:'public/1080.jpeg',title: '1080 плохо? Уже не можно?',date:'26 December,2022',links:'/blog',tag:'1080 мониторы'},
+        {id:5,img:'public/poco.jpeg',title: 'Смартфоны поко по выгодной цене.',date:'26 December,2022',links:'/blog',tag:'Скидок нет'},
+        {id:6,img:'public/exy.jpeg',title: 'Самсунг на эксинус?',date:'26 December,2022',links:'/blog',tag:'Зачем?'},
 
       ]
     }
@@ -85,7 +83,7 @@ export default {
 
 <style scoped>
 .bg{
-  background: url("public/bg-blog.jpg") lightgray 50% / cover no-repeat;
+  background: url("public/alll.jpeg") lightgray 50% / cover no-repeat;
   padding-top: 200px;
 }
 .blog-item{

@@ -4,9 +4,8 @@
       <div style="padding-bottom: 50px">
         <div class="ditails-flex">
           <div>
-            <h3 class="title-texts">Let’s Get Solution for Building <br>
-              Construction Work</h3>
-            <img style="border-radius: 38px" src="/public/Photo-big.png" alt="images">
+            <h3 class="title-texts">ПОЧЕМУ AVX ТОП????</h3>
+            <img style="border-radius: 38px; width: 300px" src="/public/i3.jpeg" alt="images">
             <div class="image-el">
               <div>
                 <span class="date">26 December,2022 </span>
@@ -35,23 +34,23 @@
               <span class="number">3</span>
               <p class="text-descr">Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
             </div>
-            <img style="border-radius: 38px" src="/public/big-img2.png">
+            <img style="border-radius: 38px" src="/public/fx-pc.jpeg">
             <p class="text-descr">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
           </div>
           <div>
             <h4 class="title-text">Tags</h4>
             <div>
               <div style="display: flex; gap: 10px; padding: 6px">
-              <tags-button :Active="true" :TextTags="'Kitchen'"/>
-              <tags-button :Active="false" :TextTags="'Bedroom'"/>
+              <tags-button :Active="true" :TextTags="'Fx'"/>
+              <tags-button :Active="false" :TextTags="'Avx'"/>
               </div>
               <div style="display: flex; gap: 10px; padding: 6px">
-              <tags-button :Active="false" :TextTags="'Building'"/>
-              <tags-button :Active="false" :TextTags="'Architecture'"/>
+              <tags-button :Active="false" :TextTags="'i3 актуален??'"/>
+              <tags-button :Active="false" :TextTags="'Сборка пк'"/>
               </div>
               <div style="display: flex; gap: 10px; padding: 6px">
-              <tags-button :Active="false" :TextTags="'Kitchen Planning'"/>
-              <tags-button :Active="false" :TextTags="'Bedroom'"/>
+              <tags-button :Active="false" :TextTags="'Амд в топе!'"/>
+              <tags-button :Active="false" :TextTags="'Скидки'"/>
               </div>
             </div>
           </div>

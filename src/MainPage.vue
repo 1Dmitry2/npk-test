@@ -9,7 +9,7 @@
         <p class="text-p-section">There are many variations of the passages of <br>
           lorem Ipsum fromavailable, majority.</p>
         <button class="btn-section">
-          Get Started
+          Заказать сборку пк
           <img src="/public/left.svg" alt="left">
         </button>
       </div>
@@ -18,7 +18,7 @@
     <section class="container">
       <div class="padding-section">
         <div class="text-center">
-        <h3 class="text-h1-section">Follow Our Projects</h3>
+        <h3 class="text-black">Наши клиенты</h3>
         <p class="text-p-section">It is a long established fact that a reader will be distracted by the of readable <br>
           content of page  lookings at its layouts  points.</p>
         </div>
@@ -37,8 +37,8 @@
     <section class="container">
       <div class="padding-section">
         <div class="text-center">
-          <h3 class="text-h1-section">Articles & News</h3>
-          <p class="text-p-section">It is a long established fact that a reader will be distracted by the of readable content
+          <h3 class="text-black">Сборки пк и Новости</h3>
+          <p class="text-p">It is a long established fact that a reader will be distracted by the of readable content
             <br>
             of a page when lookings at its layouts the points of using.</p>
         </div>
@@ -60,10 +60,10 @@ export default {
   data(){
     return {
       Projects: [
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-1.svg', links: '/page-not'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-2.svg', links: '/page-not'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-3.svg', links: '/page-not'},
-        {title: 'Modern Kitchan', crumbs: 'Decor / Artchitecture', img: 'public/pr-4.svg', links: '/page-not'},
+        {title: 'Ян Шелест', crumbs: 'Сборка комптютеров / Клиенты', img: 'public/4.jpeg', links: '/page-not'},
+        {title: 'Ностальжи пк', crumbs: 'Сборка комптютеров / Клиенты', img: 'public/3.jpeg', links: '/page-not'},
+        {title: 'Грин пейппер', crumbs: 'Сборка комптютеров / Клиенты', img: 'public/1.jpeg', links: '/page-not'},
+        {title: 'Василий', crumbs: 'Сборка комптютеров / Клиенты', img: 'public/2.jpeg', links: '/page-not'},
       ],
       ProjStats:[
         {numbers: '12',text: 'Years Of Experiance'},
@@ -72,9 +72,9 @@ export default {
         {numbers: '95',text: 'Happy CUstomers'},
       ],
       CardsDesign:[
-        {id:1,img:'public/design1.svg',title: 'Let’s Get Solution For Building Construction Work',date:'26 December,2022',links:'/blog',tag:'Kitchan Design'},
-        {id:2,img:'public/design2.svg',title: 'Low Cost Latest Invented Interior Designing Ideas.',date:'26 December,2022',links:'/blog',tag:'Living Design'},
-        {id:3,img:'public/design3.svg',title: 'Best For Any Office & Business Interior Solution',date:'26 December,2022',links:'/blog',tag:'Interior Design'},
+        {id:1,img:'public/pc-100k.png',title: 'Топ пк за 100к',date:'26 December,2022',links:'/blog',tag:'Скидка 1р'},
+        {id:2,img:'public/pc-100p.png',title: 'Игравой пк за 1000р.',date:'26 December,2022',links:'/blog',tag:'Пожизненная гарантия'},
+        {id:3,img:'public/fx-pc.jpeg',title: 'Комптютер на fx',date:'26 December,2022',links:'/blog',tag:'В топе'},
       ]
     }
   }
@@ -85,16 +85,17 @@ export default {
   padding-bottom: 40px;
 }
 .bg-section{
-  background: url("public/bg.png");
+  background: url("public/building pc.jpeg");
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 40px;
   padding-top: 210px;
   padding-bottom: 280px;
+
 }
 .text-h1-section{
-  color: #292F36;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 65px;
   font-style: normal;
@@ -102,7 +103,7 @@ export default {
   line-height: 125%; /* 81.25px */
 }
 .text-p-section{
-  color: #4D5053;
+  color: #fff;
   font-family: Jost;
   font-size: 22px;
   font-style: normal;
@@ -122,13 +123,17 @@ export default {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 125%; /* 22.5px */
+  line-height: 125%;
   letter-spacing: 0.36px;
   border: none;
   border-radius: 18px;
   background: #292F36;
   box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
   cursor: pointer;
+  transition: .2s ease-in;
+}
+.btn-section:hover{
+  background: #718596;
 }
 .text-center{
   text-align: center;
@@ -136,5 +141,22 @@ export default {
 .bg-stats{
   background:  #F4F0EC;;
   height: 100vh;
+}
+.text-black{
+  font-family: "DM Serif Display";
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 81.25px */
+  color: #4d5053;
+}
+.text-p{
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
 }
 </style>

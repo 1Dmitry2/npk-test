@@ -25,9 +25,9 @@ export default {
       `,
       text2:`In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque arcu. Donec a pellentesque Cras erat enim, gravida non ante vitae,elequis convallis elit, in viverra felis. Donec ultrices tellus vitae iaculisvd porta. Proin tincidunt ligula id purus porttitor.`,
       sliderImages: [
-        'public/Photo.png',
-        'public/Photo.png',
-        'public/Photo.png',
+        'public/pc-8.jpeg',
+        'public/pc-6.jpeg',
+        'public/pc-7.jpeg',
       ],
     };
 
@@ -37,7 +37,7 @@ export default {
 
 <style scoped>
 .bg {
-  background: url("public/bg-pr-det.jpg");
+  background: url("public/pc-1.jpeg");
   height: 500px;
   background-repeat: no-repeat;
 }

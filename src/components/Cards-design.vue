@@ -4,7 +4,7 @@
     <div :class="{'design-shadow-active': CardsItem.id === 2}" class="design-shadow">
       <div class="desing-items">
         <div class="design-img">
-          <img :src="CardsItem.img" :alt="CardsItem.tag">
+          <img width="400px" :src="CardsItem.img" :alt="CardsItem.tag">
           <div class="design-tag">
           <p class="tag">{{CardsItem.tag}}</p>
           </div>

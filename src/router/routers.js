@@ -5,6 +5,7 @@ import Blog from "../Blog.vue";
 import BlogDitails from "../BlogDitails.vue";
 import Project from "../Project.vue";
 import ProjectDitails from "../ProjectDitails.vue";
+import Auth from "../Auth.vue";
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -15,5 +16,6 @@ export const router = createRouter({
         { path: '/project', component: Project },
         { path: '/project-ditails', component: ProjectDitails },
         { path: '/page-not', component: Page404 },
+        { path: '/auth', component: Auth },
     ]
 });
